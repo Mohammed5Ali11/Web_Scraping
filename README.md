@@ -23,6 +23,19 @@ This repository contains multiple web scraping projects, each focused on extract
    - **Data Format**: The scraped data is saved in both CSV and Excel formats (`FIELGOAL.csv`, `FIELGOAL.xls`, `FIELGOALCSV.xlsx`).
    - **Libraries Used**: Requests, BeautifulSoup, CSV
    - **How It Works**: The script sends a request to the specified URL, parses the HTML content, and extracts relevant match information, saving it into the specified CSV and Excel files.
+4. **Mangalik Manga Scraper**
+   - **Files**: `Mangalik.ipynb`, `Mangalik.csv`, `Mangalik.xls`, `MangaLIkCSV.xlsx`
+   - **Description**: This project scrapes manga data (manga name, last chapter, and manga rating) from the Lekmanga website. It collects information from multiple pages to ensure a comprehensive list of available manga and their latest chapters.
+   - **Data Format**: The scraped data is saved in both CSV and Excel formats (`Mangalik.csv`, `Mangalik.xls`, `MangaLIkCSV.xlsx`).
+   - **Libraries Used**: Requests, BeautifulSoup, CSV
+   - **How It Works**: The script iterates through the first 100 pages of the Lekmanga website, extracts relevant manga information, and saves it into the specified CSV and Excel files.
+5. **Anaconda Packages Scraper**
+   - **Files**: `Anaconda.ipynb`, `Anacondaa.csv`, `Anacondaa.xls`, `Book1.xlsx`
+   - **Description**: This project scrapes package data (package name, access, summary, last updated date, and install command) from the Anaconda repository. It collects data across multiple pages to compile a comprehensive list of available packages.
+   - **Data Format**: The scraped data is saved in both CSV and Excel formats (`Anacondaa.csv`, `Anacondaa.xls`, `Book1.xlsx`).
+   - **Libraries Used**: Requests, BeautifulSoup, CSV
+   - **How It Works**: The script iterates through 73 pages of the Anaconda repository, extracts relevant package information, fetches the install command for each package, and saves it into the specified CSV and Excel files.
+
 
 
 ## How to Run
