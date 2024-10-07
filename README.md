@@ -35,6 +35,12 @@ This repository contains multiple web scraping projects, each focused on extract
    - **Data Format**: The scraped data is saved in both CSV and Excel formats (`Anacondaa.csv`, `Anacondaa.xls`, `Book1.xlsx`).
    - **Libraries Used**: Requests, BeautifulSoup, CSV
    - **How It Works**: The script iterates through 73 pages of the Anaconda repository, extracts relevant package information, fetches the install command for each package, and saves it into the specified CSV and Excel files.
+6. **Countries Data Scraper**
+   - **Files**: `Countries.ipynb`, `Countries.csv`, `CountriesCSV.xlsx`, `Countries (1).xls`
+   - **Description**: This project scrapes country data (country name, capital, population, and area in square kilometers) from the "Scrape This Site" website. It compiles a list of countries with their respective details for easy reference.
+   - **Data Format**: The scraped data is saved in both CSV and Excel formats (`Countries.csv`, `CountriesCSV.xlsx`, `Countries (1).xls`).
+   - **Libraries Used**: Requests, BeautifulSoup, CSV
+   - **How It Works**: The script extracts the details for each country block from the webpage, including country name, capital, population, and area in square kilometers. This information is then written into CSV and Excel files for further use or analysis.
 
 
 
