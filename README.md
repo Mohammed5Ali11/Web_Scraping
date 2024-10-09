@@ -42,11 +42,11 @@ This repository contains multiple web scraping projects, each focused on extract
    - **Libraries Used**: Requests, BeautifulSoup, CSV
    - **How It Works**: The script extracts the details for each country block from the webpage, including country name, capital, population, and area in square kilometers. This information is then written into CSV and Excel files for further use or analysis.
 7. **Books Scraper**
-**Files:** `Books.ipynb`, `Books.csv`, `Books.xls`, `BooksCSV.xlsx`  
-**Description:** This project scrapes book data (book name, rating, and price) from the website 'Books to Scrape'. It compiles a list of available books along with their ratings and prices.  
-**Data Format:** The scraped data is saved in both CSV and Excel formats (`Books.csv`, `Books.xls`, `BooksCSV.xlsx`).  
-**Libraries Used:** `requests`, `BeautifulSoup`, `csv`  
-**How It Works:** The script iterates through 51 pages of the website, extracts the book name, rating, and price, and writes the data into the specified CSV and Excel files.
+   - **Files:** `Books.ipynb`, `Books.csv`, `Books.xls`, `BooksCSV.xlsx`  
+   - **Description:** This project scrapes book data (book name, rating, and price) from the website 'Books to Scrape'. It compiles a list of available books along with their ratings and prices.  
+   - **Data Format:** The scraped data is saved in both CSV and Excel formats (`Books.csv`, `Books.xls`, `BooksCSV.xlsx`).  
+   - **Libraries Used:** `requests`, `BeautifulSoup`, `csv`  
+   - **How It Works:** The script iterates through 51 pages of the website, extracts the book name, rating, and price, and writes the data into the specified CSV and Excel files.
 
 
 
